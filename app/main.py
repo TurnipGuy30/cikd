@@ -19,7 +19,7 @@ while not player_exit:
 		ciks += 1
 
 	elif in_char == b'q':
-		printx('do you want to quit? (there no save function lol) y/n')
+		printx('do you want to quit? (there\'s no save function lol) y/n')
 		while quit_char not in [b'y', b'n']:
 			quit_char = getch()
 		if quit_char == b'y':
